@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: blue;
+    height: 200px;
+    background-color: #3c3b40;
+    padding: 35px 100px;
+}
+.search-div{
+    display: flex;
+    justify-content: space-between;
+}
+.search-div>input{
+ width: 220px;
+ padding: 10px;
+}
+
+
+.navigate-btns{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 55px;
+    list-style-type: none;
+}
+
+.nav-btn{
+    background-color: red;
+    color: white;
+    border: 0px;
+  border-radius: 3px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+.current-btn{
+    border: 2px solid white;
+}
+.main{
+    background-image: url("../public/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 72.6vh;
+    padding: 75px 200px;
+}
+
+.food{
+    border: 2px solid rgba(255, 255, 255, 0.591);
+    border-radius: 6px;
+    padding: 6px;
+    display: flex;
+    width: 358px;
+    gap: 10px;
+    position: relative;
+}
+.foods-list{
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.info>button{
+    background-color: red;
+  border: 0px;
+  border-radius: 3px;
+  padding: 7px 11px;
+  color: white;
+  position: absolute;
+  right: 3px;
+  bottom: 2px;
+  cursor: pointer;
+}
+.food-heading{
+    margin-bottom: 5px;
+}
